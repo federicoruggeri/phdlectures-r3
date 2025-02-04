@@ -1,73 +1,57 @@
-# ****Robust and Reproducible Experimental Deep Learning Setting (RREDLS)****
+# ****Robust and Reproducible Research****
 
-This is the official repository of the PhD course "Robust and Reproducible Experimental Deep Learning Setting”.
+Official repository of the PhD course "Robust and Reproducible Research” (a.k.a. R^3).
 
 ## Abstract
 
 With the advent of deep learning techniques and hardware breakthroughs, a lot of scientific
-papers focus on contributing novel methods, strategies, tasks, and approaches in a wide
-variety of domains.
-One major bottleneck when developing novel research ideas is to define adequate experiments. Researchers aim to define experiments that corroborate their initial hypotheses.
-Nonetheless, depending on the setup, defining such experiments may be non-trivial or, more
-in general, prone to common errors.
-In this course, we’ll introduce different evaluation procedures for assessing a model’s performance (evaluation routines, controlled multi-seeding, evaluation criteria) and overview
-different experimental research scenarios. Additionally, we’ll also provide advanced coding
-recommendations for defining a correct experimental setup. We’ll use popular deep-learning
-libraries like Tensorflow and Pytorch.
-This course is recommended for researchers who are experienced with Python programming
-and any deep learning framework (Keras, Tensorflow, Torch). See Section Prerequisites for
-more details.
+The number of scientific articles published in Computer Science (and similar fields) increases steadily every year.
+This is mainly due to breakthroughs like Deep Learning, and, more recently, Large Language Models.
+
+Paradoxically, researchers are struggling even more to reproduce published research.
+This issue affects all possible aspects of research, including methodology, data curation, approach comparison, and implementation.
+
+In this course, we'll introduce and discuss the concept of 'reproducibility' in research.
+In particular, we'll overview current issues in research and existing attempts to address them.
+We'll focus on data curation, experimental setup, model comparison, and programming best practices.
+
+This course is recommended for all types of researchers, from those who have just embarked on their journey to those who have always wondered how certain research managed to get published. See Section Prerequisites for more details.
+
+## History
+
+- ``2024-2025`` --> "Robust and Reproducible Research" (16 hours)
+- ``2022-2023`` --> "Robust and Reproducible Experimental Deep Learning Setting" (10 hours)
 
 ## Program
 
 Down below, you can find the program of the course.
 
-- Lecture 1: Defining an experimental scenario: concepts
-- Lecture 2: Defining an experimental scenario: implementation
-- Lecture 3: Advanced Tensorflow/Pytorch
-- Lecture 4: Common Mistakes and Best Practices
-- Lecture 5: Deasy-Learning: a simple deep learning framework for research
-
+- Lecture 1: Reproducibility in Research (Pt. I)
+- Lecture 2: Reproducibility in Research (Pt. II)
+- Lecture 3: Data Collection and Annotation
+- Lecture 4: Modeling and Experimenting
+- Lecture 5: Responsible Research
+- Lecture 6: Programming Best Practices (Pt. I)
+- Lecture 7: Programming Best Practices (Pt. II)
+- Lecture 8: [Cinnamon](https://github.com/nlp-unibo/cinnamon): a lightweight python library for research
 ## Course Info
 
-Duration: 10 Hours
+Duration: 16 Hours
 Lecture Format: 2 hour-long hybrid lectures.
 
 ## Prerequisites
 
-Lectures are meant to be interactive. A GitHub repository will be made available for participants. Lectures will be carried out via Jupyter notebook.
+Lectures are meant to be interactive.
 
-- Python: Intermediate
-- Keras/Tensorflow/Torch/Other: Intermediate
+- Programming: Intermediate
 - Deep Learning Theory: Intermediate
-- Research Experience: Beginner
 - Jupyter Notebook: Beginner
 
 ## Exam
 
-If you need to certify your participation in the course via an exam, you can choose one option
-from the ones reported below. All submissions are made by contacting me via email.
-
-- [Review] You can report a review you have made concerning the experimental setup
-of a paper of your choice. Please submit your review in .pdf format (1-2
-pages at most). I kindly ask you to analyze the pros and cons of the
-considered experimental setup.
-- [Code] You can submit a code snippet (either a GitHub repo or a notebook) describing how you used certain advanced deep learning APIs/functionalities
-(e.g., efficient data loading, parallel training, custom architectures, etc..). I
-kindly ask you to report a .pdf report (1-2 pages at most) that summarizes
-and motivates your implementation. You can submit code snippets used
-in your research activity.
-- [deasy-learning] As a variant of the Code option, you can submit a code snippet written
-using my deep-learning library. As in Code, I kindly ask you to report a
-.pdf report. Feedbacks are welcome!
-
-## How to run notebooks in presentation mode
-
-I'm using [RISE](https://rise.readthedocs.io/en/stable/) plugin for notebooks.
-
-Just run ``pip install notebook`` and ``pip install RISE`` for installation. 
-
-Then run jupyter notebook to see added plugin functionalities.
+If you need to certify your attendance to the course via an exam, you can submit a review as described below. **Please submit your report via email**.
+ 
+- [Review] You can submit a review you have made concerning a paper of your choice. Please submit your review in .pdf format (1-2 pages at most). The review should focus on issues related to the course topics and corresponding solution(s) suggested by you or proposed in the paper.
 
 ## Lecturer
 
