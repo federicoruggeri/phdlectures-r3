@@ -1,0 +1,103 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Remove the "guidelines" option to generate the final version.
+\usepackage[guidelines]{reproducibility} % show guidelines
+% \usepackage[]{reproducibility} % hide guidelines
+
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs} % for tables
+
+
+
+
+
+
+% THE pdfinfo Title AND Author ARE NOT NECESSARY, THEY ARE METADATA FOR THE FINAL PDF FILE
+\hypersetup{pdfinfo={
+Title={Guidelines and template for R${^3}$ report},
+Author={Jane Smith \& John Doe}
+}}
+%\setcounter{secnumdepth}{0}  
+ \begin{document}
+%
+\title{Guidelines and template for R$^{3}$ report\\
+\explanation{\rm Substitute the $\uparrow$ title $\uparrow$ with your review title\\ \smallskip}
+% subtitle:
+}
+\author{First Author,
+Second Author,
+Third Author,
+\and
+Fourth Author\\
+Affiliation\\
+\{ name1.surname11, name2.surname22, name3.surname33, name4.surname44 \}@email.it
+}
+\maketitle
+
+
+\attention{DO NOT MODIFY THIS TEMPLATE - EXCEPT, OF FOR TITLE, SUBTITLE AND AUTHORS.\\ IN THE FINAL VERSION, IN THE \LaTeX\ SOURCE REMOVE THE \texttt{guidelines} OPTION FROM  \texttt{$\backslash$usepackage[guidelines]\{nlpreport\}}.
+}
+
+\begin{abstract}
+%\begin{quote}
+
+\explanation{
+The abstract is very brief summary of your review. Try to keep it no longer than 15-20 lines at most. Write your objective, your approach, and your main observations.}
+
+%\end{quote}
+\end{abstract}
+
+\attention{\textcolor{red}{NOTICE: THIS REPORT'S LENGTH MUST RESPECT 2 PAGE LIMIT.}}
+
+
+\section{Introduction}
+\label{sec:introduction}
+
+\explanation{Give a short overview of the problem of interest and how it relates to the course topics.} 
+
+\section{Problem Description}
+\label{sec:problem}
+
+\explanation{Describe the problem of interest, highlighting the main issues you intend to cover in your review.}
+
+\section{Discussion}
+\label{sec:system}
+
+\explanation{
+Provide a clear and concise discussion of previously introduced issues, focusing on potential solutions.
+}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+\explanation{Briefly recap your review.}
+
+\end{document}
