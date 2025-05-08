@@ -4,7 +4,6 @@ Official repository of the PhD course "Robust and Reproducible Research” (a.k.
 
 ## Abstract
 
-With the advent of deep learning techniques and hardware breakthroughs, a lot of scientific
 The number of scientific articles published in Computer Science (and similar fields) increases steadily every year.
 This is mainly due to breakthroughs like Deep Learning, and, more recently, Large Language Models.
 
