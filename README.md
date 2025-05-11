@@ -33,6 +33,7 @@ Down below, you can find the program of the course.
 - Lecture 6: Programming Best Practices (Pt. I)
 - Lecture 7: Programming Best Practices (Pt. II)
 - Lecture 8: [Cinnamon](https://github.com/nlp-unibo/cinnamon): a lightweight python library for research
+
 ## Course Info
 
 Duration: 16 Hours
@@ -51,6 +52,12 @@ Lectures are meant to be interactive.
 If you need to certify your attendance to the course via an exam, you can submit a review as described below. **Please submit your report via email**.
  
 - [Review] You can submit a review you have made concerning a paper of your choice. Please submit your review in .pdf format (1-2 pages at most). The review should focus on issues related to the course topics and corresponding solution(s) suggested by you or proposed in the paper.
+
+## Recordings
+
+Lecture recordings are publicly available at the following links:
+
+- ``2024-2025``: https://zenodo.org/records/15383610
 
 ## Lecturer
 
