@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>4-Modeling slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>5-Responsible-Research slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7442,221 +7442,109 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="About-last-time">About last time<a class="anchor-link" href="#About-last-time">¶</a></h2><ul>
-<li>Data is a crucial part of machine learning $\rightarrow$ always <strong>check the data</strong> you use!</li>
+<li>Data partitioning is a <strong>crucial step</strong> when performing experiments $\rightarrow$ <em>biases in evaluation are right behind the corner</em></li>
 </ul>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b21e7383">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7414ddb5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Annotation paradigms encode recommendations concerning the <strong>intended purpose</strong> of collected data</li>
+<li>Data leakage covers a wide spectrum of possible erros, including preprocessing and data partitioning $\rightarrow$ <strong>hard to detect leakage sometimes!</strong></li>
 </ul>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1081e117">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a9f05920">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Prescriptive paradigm encourages <strong>one shared belief</strong>; Descriptive and perspectivist encourage <strong>different distinct beliefs</strong></li>
+<li>Seeding control experimental stochasticity, but in many cases its use can be <strong>harmful</strong> $\rightarrow$ <em>yet another hyper-parameter</em></li>
 </ul>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=361d19c5">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3993068f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Data collection is difficult, time-consuming and <strong>always</strong> biased $\rightarrow$ in which cases biases are harmful?</li>
+<li>Statistical significance is a powerful tool that is unfortunately erroneously abused! $\rightarrow$ <strong>there is a huge lack of education on this topic</strong></li>
 </ul>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d7f532c3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fea116cf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Trends on using as much data as possible and focus on a limited set of metrics $\rightarrow$ high risk of <strong>limited analysis</strong></li>
+<li>Metrics are a standard tool for system evaluation. However they only provide a specific point of view of a problem $\rightarrow$ <strong>make sure you consider different metrics and do not copy-paste results from literature</strong></li>
 </ul>
 </div>
 </div>
 </div>
 </div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e69498ba">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f526060">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="About-this-lecture">About this lecture<a class="anchor-link" href="#About-this-lecture">¶</a></h2><p>We talked a lot about data and, certainly, we did not talk enough about data</p>
+<h2 id="About-this-lecture">About this lecture<a class="anchor-link" href="#About-this-lecture">¶</a></h2><p>We talked about data collection and doing experiments, and corresponding fallacies.</p>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=15e09c0f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dcc44140">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>However, there are other aspects of a machine learning pipeline where talking about reproducibility is essential: modeling, experimenting, and evaluation.</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3db9b13e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="What-we-are-going-to-talk-about">What we are going to talk about<a class="anchor-link" href="#What-we-are-going-to-talk-about">¶</a></h3><ul>
-<li>Data partitioning</li>
-<li>Data leakage</li>
-<li>Seeding</li>
-<li>Performance comparison</li>
-<li>Metrics</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba9ffb0c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Data-Partitioning">Data Partitioning<a class="anchor-link" href="#Data-Partitioning">¶</a></h2><p>Data partitioning is a <strong>crucial step</strong> since model performance is computed on built <strong>dev</strong> and <strong>test</strong> splits.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1509a036">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Suppose you have some available data (e.g., you created it)</p>
+<p>While there are several issues we might encounter, there is also effort in developing solutions to mitigate these issues.</p>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=baaa5273">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d06219a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] <strong>How</strong> should we split data?</p>
+<p>One of these solutions in accordance with reproducible research is represented by <strong>recommendations checklists</strong>.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e723ae90">
+</div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=20c676e5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] For <strong>what purpose</strong> are we splitting data?</p>
+<h2 id="But-first...let's-hear-it-from-you!">But first...let's hear it from you!<a class="anchor-link" href="#But-first...let's-hear-it-from-you!">¶</a></h2><p>Time for another <a href="https://forms.gle/tVR38jUqNsrzigCN9">Google Form</a> (<strong>5 mins</strong>)</p>
 </div>
 </div>
 </div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dc3cb940">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>It is common practice to collect a dataset and build train, dev and test splits</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3bab3a6e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>These splits are usually built by following a specific criterion</p>
-<ul>
-<li>Order of collection</li>
-<li>Time order</li>
-<li>Domain-specific information (e.g., different speakers, topics, sources)</li>
-<li>Random !</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08c94b80">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>These splits are formally known as <strong>standard splits</strong></p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c2c226de">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This process is perfectly fine: we have the data, we follow the splits and train/evaluate our models of interest</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8301a1c8">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Are-standard-splits-good?">Are standard splits good?<a class="anchor-link" href="#Are-standard-splits-good?">¶</a></h3><p>[❗] [<a href="https://aclanthology.org/P19-1267.pdf">Gorman &amp; Bedrick, 2019</a>] showed that there's a <strong>relevant discrepancy</strong> between standard and random splits</p>
-<p>In particular, they argue in favor of <strong>random splits</strong> to have better estimate of model performance on new data samples (i.e., an hypothetical real-world scenario)</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3d4dd6f0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❗] However, [<a href="https://aclanthology.org/2021.eacl-main.156v2.pdf">Søgaard et al., 2021</a>] showed that <strong>random splits</strong> (and other data partitioning approaches) yet provide an <strong>over-estimate</strong> of model performance</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8c4b0fe3">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89ca692d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7664,1634 +7552,263 @@ main {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <center>
 <div>
-<img alt="talk_about_random_splits" src="../Images/Lecture-4/talk_about_random_splits.png" width="2500"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c7cffb37">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Random and standard splits <strong>under-estimate</strong> error on new samples</li>
-<li>Heuristic and adversarial splits sometime <strong>under-estimate</strong> error on new samples</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=852f5433">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="What-should-we-do?">What should we do?<a class="anchor-link" href="#What-should-we-do?">¶</a></h3><p>[<a href="https://aclanthology.org/2021.eacl-main.156v2.pdf">Søgaard et al., 2021</a>] propose to:</p>
-<ol>
-<li>Consider/build <strong>multiple diverse test splits</strong> with different biases $\rightarrow$ better evaluation</li>
-<li>If (1) is not possible, it is better to consider <strong>biased splits</strong> to better approximate real-world performance</li>
-</ol>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=90fc1d71">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Is-train-dev-test-partitioning-correct?">Is train-dev-test partitioning correct?<a class="anchor-link" href="#Is-train-dev-test-partitioning-correct?">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e9c77271">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[<a href="https://aclanthology.org/2021.emnlp-main.368.pdf">Rob van der Goot, 2021</a>] notices</p>
-<ul>
-<li>A <strong>clear mismatch</strong> between classical and neural models</li>
-<li><strong>Over-estimations</strong> on dev splits limit evaluations on test splits only $\rightarrow$ overfitting and fast expiration of test splits</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0fa6ffeb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Overfitting</strong>: design decisions (e.g., hyper-parameters) $\rightarrow$ <em>bias from research design</em> [<a href="https://compass.onlinelibrary.wiley.com/doi/epdf/10.1111/lnc3.12432">Hovy &amp; Prabhumoye, 2021</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2823ee41">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Model-comparison">Model comparison<a class="anchor-link" href="#Model-comparison">¶</a></h3><p>If we want to compare model A to model B, we calibrate A and B on the dev split and then evaluate them on the test split. $\rightarrow$ model architecture search</p>
-<p>In particular, we pick the best-epoch for each model based on the dev split $\rightarrow$ <strong>early stopping</strong></p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ea07c6f6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Dev-split-over-estimation">Dev split over-estimation<a class="anchor-link" href="#Dev-split-over-estimation">¶</a></h3><p>If we calibrate on the dev split $\rightarrow$ <strong>overly optimistic</strong> performance on the dev split</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=335761a0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Thus, regarding <strong>model picking</strong></p>
-<ul>
-<li>If on the dev split: <strong>over-estimation</strong> since model picking and calibration are <strong>both done</strong> on the dev split</li>
-<li>If on the test split: <strong>overfitting of design decisions</strong>, leading to faster obsolescence of the test split</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c6d3d655">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="What-can-be-done?">What can be done?<a class="anchor-link" href="#What-can-be-done?">¶</a></h4><p>[<a href="https://aclanthology.org/2021.emnlp-main.368.pdf">Rob van der Goot, 2021</a>] proposes a <em>tune split</em></p>
-<ol>
-<li>Early stop on tune split</li>
-<li>Hyper-parameters calibration on dev split</li>
-<li>Validate results on test split</li>
-</ol>
-<p>This also allows a <strong>fair comparison</strong> with classical models since they don't use a dev split during training</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f2e36ee0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<table><tr>
-<td> <img alt="tune_split_test_performance" src="../Images/Lecture-4/tune_split_test_performance.png" width="1100"/> </td>
-<td> <img alt="tune_split_dev_test_performance" src="../Images/Lecture-4/tune_split_dev_test_performance.png" width="1100"/> </td>
-</tr></table>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=afc67a67">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Downsides-%5B%E2%9D%93%5D">Downsides [❓]<a class="anchor-link" href="#Downsides-%5B%E2%9D%93%5D">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a742d673">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li><strong>More</strong> data required!</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ec4fa4fe">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>It is possible to <strong>add</strong> tune split to train data for final evaluation on the test split (early stop on dev)<ul>
-<li>Similar to <strong>shared tasks</strong>: use train + dev</li>
-<li>Similar to <strong>cross-lingual/domain</strong> setups: source dataset dev split for model picking $\rightarrow$ <strong>don't use all</strong> target languages [<a href="https://aclanthology.org/2020.acl-main.658.pdf">Artetxe et al., 2020</a>]</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cdfa4d36">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="The-importance-of-biases">The importance of biases<a class="anchor-link" href="#The-importance-of-biases">¶</a></h3><table><tr>
-<td> <img alt="different_time_samples" src="../Images/Lecture-4/different_time_samples.png" width="1100"/> </td>
-<td> <img alt="temporal_drift" src="../Images/Lecture-4/temporal_drift.png" width="1100"/> </td>
-</tr></table>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=02f0c6da">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Data-Leakage">Data Leakage<a class="anchor-link" href="#Data-Leakage">¶</a></h2><p>''*Data leakage is a spurious relationship between the independent variables and the target variable that arises as an artifact of the data collection, sampling, or pre-processing strategy." [<a href="https://arxiv.org/pdf/2207.07048.pdf">Kapoor &amp; Narayanan, 2022</a>]</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c792bcbd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Examples">Examples<a class="anchor-link" href="#Examples">¶</a></h4><ul>
-<li>Perform variable scaling/normalization using the whole data set.</li>
-<li>Feature selection before data partitioning.</li>
-<li>Dimensionality reduction before data partitioning.</li>
-<li>Calibrate and test your model on the same dev/test set.</li>
-<li>Data augmentation before data partitioning</li>
-<li>Random splits with time series data or look ahead bias</li>
-<li>Biased data partitioning</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=07d264ff">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<center>
-<div>
-<img alt="data_leakage" src="../Images/Lecture-4/data_leakage.png" width="2000"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=669638ef">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<center>
-<div>
-<img alt="kapoor_leakage" src="../Images/Lecture-4/kapoor_leakage.png" width="2000"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=83ae6356">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%5BL2%5D-Illegitimate-features">[L2] Illegitimate features<a class="anchor-link" href="#%5BL2%5D-Illegitimate-features">¶</a></h3><p>The model has access to features that should <strong>not be legitimately available</strong> for use.</p>
-<p>The judgement of whether the use of a given feature is legitimate for a modeling task requires <strong>domain knowledge</strong> and can be highly <strong>problem specific</strong>!</p>
-<p>Use <strong>domain expertise</strong> to decide which features are suitable.</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0fc9f1fc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%5BL3%5D-Test-set-not-drawn-from-the-distribution-of-scientific-interest">[L3] Test set not drawn from the distribution of scientific interest<a class="anchor-link" href="#%5BL3%5D-Test-set-not-drawn-from-the-distribution-of-scientific-interest">¶</a></h3><p>The distribution of data on which the performance of an ML model is evaluated <strong>differs from</strong> the distribution of data about which the scientific claims are made.</p>
-<p>The performance of the model on the test set <strong>does not correspond</strong> to its performance on data drawn from the distribution of scientific interest.</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fed67508">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%5BL3.1%5D-Temporal-Leakage">[L3.1] Temporal Leakage<a class="anchor-link" href="#%5BL3.1%5D-Temporal-Leakage">¶</a></h3><p>The test set should <strong>not contain</strong> any data from a date before the training set.</p>
-<p>If the test set contains data from before the training set, the model is built using data <em>''from the future"</em> that it should not have access to during training.</p>
-<p>$\rightarrow$ Avoid random splitting and check for potential <strong>look-ahead bias</strong> [<a href="https://link.springer.com/article/10.1007/s10994-020-05910-7">Cerqueira et al., 2020</a>; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3836631">Wang &amp; Ruf, 2022</a>]</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a61dd55d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%5BL3.2%5D-Non-independence-between-train-and-test-samples">[L3.2] Non-independence between train and test samples<a class="anchor-link" href="#%5BL3.2%5D-Non-independence-between-train-and-test-samples">¶</a></h3><p>Nonindependence between train and test samples constitutes leakage, unless the scientific claim is about a distribution that has the same dependence structure.</p>
-<p>It is <strong>quite common</strong> that train and test samples come from the same people or unit (histopathology case [💬] [<a href="https://www.medrxiv.org/content/10.1101/2020.04.23.20076406v1">Oner et al., 2020</a>])</p>
-<p>There are solutions like 'block cross-validation' [<a href="https://onlinelibrary.wiley.com/doi/10.1111/ecog.02881">Roberts et al., 2017</a>; <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13107">Valavi et al., 2021</a>]</p>
-<p>$\rightarrow$ Non-independence is a <strong>hard problem</strong> since we might not know the <strong>underlying dependency structure</strong> of the task.</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6b20a0a8">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="%5BL3.3%5D-Sampling-bias-in-test-distribution">[L3.3] Sampling bias in test distribution<a class="anchor-link" href="#%5BL3.3%5D-Sampling-bias-in-test-distribution">¶</a></h3><ul>
-<li><p><strong>Spatial bias</strong>: choosing data from a geographic location but making claims about model performance in other locations as well</p>
-</li>
-<li><p><strong>Selection bias</strong>: choosing a non-representative subset of the dataset for evaluation (autism case [💬], pneumonia prediction [💬])</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=21661f91">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="There-are-a-lot-of-other-biases-(a-small-memo)">There are a lot of other biases (<em>a small memo</em>)<a class="anchor-link" href="#There-are-a-lot-of-other-biases-(a-small-memo)">¶</a></h3><ul>
-<li><p><strong>Self-selection bias</strong>: People with specific characteristics are more likely to agree to take part in a study than others.</p>
-</li>
-<li><p><strong>Non-response bias</strong>: People who refuse to participate or drop out from a study systematically differ from those who take part.</p>
-</li>
-<li><p><strong>Undercoverage bias</strong>: Some members of a population are inadequately represented in the sample.</p>
-</li>
-<li><p><strong>Survivorship bias</strong>: Successful observations, people and objects are more likely to be represented in the sample than unsuccessful ones.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c648c6aa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<center>
-<div>
-<img alt="survivorship-bias" src="../Images/Lecture-4/Survivorship-bias.svg" width="850"/>
+<img alt="Recommendation checklists" src="../Images/Lecture-5/qsn_checklists.png" width="600"/>
 </div>
 </center>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13544def">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=598d551a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Seeding">Seeding<a class="anchor-link" href="#Seeding">¶</a></h2><p>Pseudo random number generation is a <strong>critical aspect</strong> in developing experiments.</p>
-<p>Choosing a random seed fixes the pseudo random number generation process.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a8e80083">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] What processes are affected by a random seed? Have you ever fixed seeds?</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=39173d79">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Neural network initialization</li>
-<li>Optimization</li>
-<li>Neural network prediction</li>
-<li>Data pipeline (e.g., data partitioning)</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c1c23676">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] How should we use random seeds?</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5b2484c9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol>
-<li>Model selection $\rightarrow$ hyper-parameters calibration</li>
-<li>Ensemble creation</li>
-<li>Sensitivity analysis</li>
-<li>Single fixed seed $\rightarrow$ through all model pipeline</li>
-<li>Performance comparison</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9c190510">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>According to [<a href="https://arxiv.org/pdf/2210.13393.pdf">Bethard, 2022</a>], based on an analysis of <strong>85</strong> ACL papers, points [1-3] are <strong>safe</strong> approaches, while points [4-5] <strong>hide some critical risks</strong>.</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3a6c8280">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In particular, Bethard found that 48 out of 85 papers (<strong>~56%</strong>) follow risky approaches.</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=30ba4895">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This trend is <strong>unaffected by time</strong>! $\rightarrow$ recent papers are <strong>still</strong> making the same errors</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7796e070">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Model-selection">Model selection<a class="anchor-link" href="#Model-selection">¶</a></h3><p>A random seed is just <strong>another hyper-parameter</strong> of the model.</p>
-<p>It is perfectly fine to find for the best random seeds like for other hyper-parameters.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=21f1f4e2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>''...Training multiple models with randomized initializations and use as the final model the one which achieved the best performance on the validation set''</em> [<a href="https://aclanthology.org/W18-2311.pdf">Björne &amp; Salakoski, 2018</a>]</p>
-<p><em>''The test results are derived from the 1-best random seed on the validation set''</em> [<a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00345/96469/Syntactic-Structure-Distillation-Pretraining-for">Kuncoro et al., 2020</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=65c17180">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Ensemble-creation">Ensemble creation<a class="anchor-link" href="#Ensemble-creation">¶</a></h3><p>Ensembling is a standard strategy to <strong>achieve increased performance</strong> by combining multiple models</p>
-<p>One can create an ensemble by training the same model with <strong>different random seeds</strong> and obtain predictions via voting</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=395910c6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>''...We ensemble five distinct models each initialized with a different random seed''</em> [<a href="https://aclanthology.org/K17-2008.pdf">Nicolai et al., 2017</a>]</p>
-<p><em>''Our model is composed of the ensemble of 8 single models. The hyperparameters and the training procedure used in each single model are the same except the random seed''</em> [<a href="https://aclanthology.org/W19-4421.pdf">Yang &amp; Wang, 2019</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=88b2bbe1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Sensitivity-Analysis">Sensitivity Analysis<a class="anchor-link" href="#Sensitivity-Analysis">¶</a></h3><p>Since neural networks may be <strong>sensitive to random initialization</strong>, one could study this aspect by considering multiple seed runs.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=30e99fa3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>''...examine the expected variance in attention-procuded weights by initializing multiple training sequences with different random seeds''</em> [<a href="https://aclanthology.org/D19-1002.pdf">Wiegreffe &amp; Pinter, 2019</a>]</p>
-<p><em>''Our model shows a lower standard deviation on each task, which means our model is less sensitive to random seeds than other models''</em> [<a href="https://aclanthology.org/2021.naacl-main.258.pdf">Hua et al., 2021</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=51fd2af4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Single-fixed-seed">Single fixed seed<a class="anchor-link" href="#Single-fixed-seed">¶</a></h3><p>Pick a single random seed to fix the whole model pipeline <strong>to ensure reproducibility</strong>.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ef254394">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] Why is this risky?</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bfaf201f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Doesn't <strong>necessarily guarantee reproducibility</strong> $\rightarrow$ some libraries (e.g., Tensorflow) may <strong>not support</strong> seed fixing for all operations (it also depends on the <strong>library version</strong>)</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=51c366af">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Seed fixing <strong>implies no calibration</strong> for such a hyper-parameter $\rightarrow$ performance <strong>under-estimation</strong></li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1fe45553">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>What should be done instead</p>
-<ul>
-<li>Calibrate the random seed like any other hyper-parameter [<a href="https://arxiv.org/pdf/2002.06305.pdf">Dodge et al., 2020</a>]</li>
-<li>Low-resource scenario? Random search [<a href="https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf">Bergstra &amp; Bengio, 2012</a>]</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d3ff8a58">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Performance-comparison">Performance comparison<a class="anchor-link" href="#Performance-comparison">¶</a></h3><p>For model comparison, one should prefer <strong>considering distributions of model performance</strong> and not single point estimates to draw more <strong>reliable conclusions</strong>.</p>
-<p>[❗] However, the trend is to just consider <strong>random seeds variations</strong> to obtain such distributions</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9105e200">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>''We re-ran both implementations multiple times, each time only changing the seed value of the random number generator''</em> [<a href="https://aclanthology.org/D17-1035.pdf">Reimers &amp; Gurevych, 2017</a>]</p>
-<p><em>''Indeed, the best approach is to stop reporting single-value results, and instead report the distribution of results from a range of seeds. Doing so allows for a fairer comparison across models''</em> [<a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00018/43441/Questionable-Answers-in-Question-Answering">Crane, 2018</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=268ad787">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] Why is this risky?</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aa2a1dfa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol>
-<li><strong>Sub-optimal models</strong> if the goal is to compare the best possible model A from one architecture to the best possible model B from another architecture (e.g., leaderboards)</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dc19659c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="2">
-<li><strong>Biased slice of family</strong> if the goal is to compare the family of models A to the family of models B $\rightarrow$ we should consider <strong>all</strong> hyper-parameters</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=40682fa0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>What should be done instead</p>
-<ul>
-<li>For (1), we should also optimize for the best possible seed $\rightarrow$ we can still consider distributions rather than point estimates by <strong>considering multiple test splits</strong>.</li>
-<li>For (2), we should sample different models from a family by considering <strong>all hyper-parameters</strong> and not just random seeds.</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4f68f7e1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Model-Evaluation">Model Evaluation<a class="anchor-link" href="#Model-Evaluation">¶</a></h2><p>Having <strong>valid results</strong> from which to <strong>draw reliable</strong> conclusions is a fundamental aspect of your experimental setting [<a href="https://arxiv.org/pdf/2108.02497.pdf">Lones, 2023</a>].</p>
-<p><em>Current SOTA achieves 94% of accuracy, while our model achieve 95.2%</em> $\rightarrow$ <strong>new SOTA!</strong> [<a href="https://link.springer.com/article/10.1007/BF02430364">Hooker, 1995</a>]</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=941502cb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[❓] What could have gone differently?</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c302a03c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Training/evaluation on different <strong>data partitions</strong></li>
-<li>Different <strong>training dataset</strong></li>
-<li>Different <strong>training regularization</strong></li>
-<li><strong>Mismatch</strong> in hyper-parameter optimization $\rightarrow$ I know you have calibrated your model only!</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cfb260d7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="What-to-do?">What to do?<a class="anchor-link" href="#What-to-do?">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4e782a62">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li><strong>Re-implement</strong> all models or use available code (<em>good luck!</em>)</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=272bc40f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Perform a <strong>fair hyper-parameter</strong> calibration</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f5633d7c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Evaluation on an <strong>appropriate</strong> test set: no overlap with training data, representative of population $\rightarrow$ <strong>Images with same weather conditions</strong> [💬]</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=748056e7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>In case of data-augmentation, perform it on <strong>training data only</strong></li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0c2e59ef">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Perform model evaluation <strong>multiple times</strong> [<a href="https://arxiv.org/pdf/2008.02577.pdf">Blagec et al., 2020</a>]: multiple data partitions (<strong>input sensitivity</strong>); multiple seeds (<strong>random initialization sensitivity</strong>) $\rightarrow$ under/over-estimation of model's performance.<ul>
-<li>It becomes increasingly likely that the best model just happens to <strong>over-fit the test set</strong>, and doesn't necessarily <strong>generalize</strong> any better than the other models.  <strong>The Persuasive Essays dataset</strong> [💬]</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=68852cab">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Cross-validation (<strong>stratified</strong> in case of class imbalance) $\rightarrow$ keep a separate test set for final evaluation</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b8a602e6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Pick <strong>correct</strong> evaluation metrics: different metrics give different perspectives <a href="https://icml.cc/2012/papers/298.pdf">Wagstaff, 2012</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4c598e93">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Statistical tests</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=54a212c9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Check your results $\rightarrow$ In some domains it is very important to understand which errors does your model make</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8d3577dc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Consider strong simple baselines $\rightarrow$ is there any advantage?</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ed22226e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Reporting">Reporting<a class="anchor-link" href="#Reporting">¶</a></h1><p>To effectively contribute to knowledge, you need to provide a <strong>complete picture</strong> of your work, covering both what worked and what <strong>didn't</strong>.</p>
-<p>$\rightarrow$ Trade-offs are common.</p>
+<h2 id="Data-guidelines-and-recommendations">Data guidelines and recommendations<a class="anchor-link" href="#Data-guidelines-and-recommendations">¶</a></h2><p>One recommendation for evaluating aforementioned issues is via datasheets for datasets [<a href="https://cacm.acm.org/magazines/2021/12/256932-datasheets-for-datasets/abstract">Gebru et al., 2021</a>]</p>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1aeb19c5">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6a81c861">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Over-statements">Over-statements<a class="anchor-link" href="#Over-statements">¶</a></h3><p>A common mistake is to make <strong>general</strong> statements that are <strong>not supported</strong> by the data used to train and evaluate models.</p>
+<p>For dataset <strong>creators</strong>:</p>
 <ul>
-<li>If your model does really well on one dataset, it doesn't <strong>necessarily mean</strong> that it will do well on other datasets.</li>
-<li>There's always a limit of what can be <strong>inferred from</strong> an experimental study $\rightarrow$ sampling error/bias, datasets overlap, data quality.</li>
+<li>Creation process $\rightarrow$ reproducing, creating a new one..</li>
+<li>Distribution</li>
+<li>Maintenance</li>
+<li>Assumptions</li>
+<li>Risks, harms, implications of use, biases, limitations</li>
 </ul>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ca78591">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=042ca764">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Statistical-significance-shotgun">Statistical significance shotgun<a class="anchor-link" href="#Statistical-significance-shotgun">¶</a></h3><p>As opposed to most scientific disciplines, statistical analysis <strong>is seldom conducted</strong> in machine learning-based research [<a href="https://arxiv.org/pdf/1904.10922.pdf">Forde &amp; Paganini, 2019</a>; <a href="https://aaai.org/papers/11694-deep-reinforcement-learning-that-matters/">Henderson et al., 2018</a>]</p>
-<p>Statistical tests are <strong>error-prone</strong>: some may <strong>underestimate</strong> significance while some others may <strong>overestimate</strong> it.</p>
-<p>$\rightarrow$ A positive test <strong>doesn't always</strong> indicate that something is significant, and a negative test doesn't necessarily mean that something isn't significant.</p>
+<p>For dataset <strong>consumers</strong>:</p>
+<ul>
+<li>Information to make informed decisions about using the dataset</li>
+<li>Transparency for data selection</li>
+<li>Avoid unintentional misuse</li>
+</ul>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dea110e0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5cf6f205">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Threshold-selection-and-abuse">Threshold selection and abuse<a class="anchor-link" href="#Threshold-selection-and-abuse">¶</a></h4><p>Statisticians are increasingly arguing that it is better <strong>not to</strong> use thresholds and just report p-values for <strong>interpretation</strong> [<a href="https://www.nature.com/articles/d41586-019-00857-9">Amrhein et al., 2019</a>]</p>
-<p>To give a better indication of whether something is important, we can measure <strong>effect size</strong> [<a href="https://www.tandfonline.com/doi/epdf/10.1080/00031305.2018.1529624?needAccess=true&amp;role=button">Betensky, 2019</a>; <a href="https://jmlr.org/papers/volume18/16-305/16-305.pdf">Benavoli et al., 2017</a>].</p>
+<p>May be valuable to policy makers, consumer advocates, investigative journalists, individuals whose data is included in datasets, and individuals who <strong>may be impacted by models</strong> trained or evaluated using datasets</p>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=302a9d42">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9732e914">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Which-one-to-use?">Which one to use?<a class="anchor-link" href="#Which-one-to-use?">¶</a></h4><p><strong>[Pairwise comparison]</strong> Student's T test (if normally distributed), Mann-Whitneys's U test (more general) [<a href="https://arxiv.org/pdf/1811.12808.pdf">Raschka, 2020</a>; <a href="https://www.sciencedirect.com/science/article/pii/S2210650219302639">Carrasco et al, 2020</a>]</p>
-<p><strong>[Multiple comparisons]</strong> Multiple pairwise comparisons can lead to overly-optimistic interpretations of significance (using the test set multiple times) $\rightarrow$ <strong>multiplicity effect</strong> or <strong>data dredging</strong> or <strong>p-hacking</strong> [<a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106">Head et al., 2015</a>]</p>
+<p>Datasheets also facilitate <strong>reproducibility</strong>: researchers and practitioners without access to a dataset may be able to use the information in its datasheet to create alternative datasets with similar characteristics.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f2682f6c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Datasheets are <strong>not</strong> meant to be prescriptive</p>
+<p>$\rightarrow$ datasheets will necessarily vary depending on factors such as the domain or existing organizational infrastructure and workflows.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=afef1b3c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Datasheet-Example">Datasheet Example<a class="anchor-link" href="#Datasheet-Example">¶</a></h3><p>Check <em>''Other material/Lecture-5/datasheets-datasets.pdf"</em></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c4e79d1f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="A-concrete-example">A concrete example<a class="anchor-link" href="#A-concrete-example">¶</a></h2><p>Check ''<em>Other material/Lecture-5/argscichat_datasheet.pdf</em>"</p>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a47854a6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c06c64dc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Statistical-significance">Statistical significance<a class="anchor-link" href="#Statistical-significance">¶</a></h2><p>A standard tool to assess that experimental results are <strong>not coincidental</strong>.</p>
-<p>[❓] Which statistical tool should we use? Under which conditions should we use it?</p>
+<h2 id="Data-Cards-%5BPushkarna-et-al.,-2022%5D">Data Cards <a href="https://dl.acm.org/doi/pdf/10.1145/3531146.3533231">[Pushkarna et al., 2022]</a><a class="anchor-link" href="#Data-Cards-%5BPushkarna-et-al.,-2022%5D">¶</a></h2><p>A clear and thorough understanding of a <strong>dataset’s origins, development, intent, ethical considerations and evolution</strong> becomes a necessary step for the responsible and informed deployment of models, especially those in people-facing contexts and high-risk domains.</p>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=934dc0a3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=702259f8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[<a href="https://aclanthology.org/P18-1128.pdf">Dror et al., 2018</a>] surveyed <strong>~200</strong> papers from ACL'17 and found that statistical significance is often <strong>not reported</strong> or <strong>wrongly used</strong>.</p>
+<p>$\rightarrow$ falls on the intelligibility, conciseness, and comprehensiveness of the <strong>documentation</strong>!</p>
 </div>
 </div>
 </div>
 </div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf28685f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=57f3ef8b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<center>
-<div>
-<img alt="dror_survey" src="../Images/Lecture-4/dror_survey.png" width="300"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b9700689">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Our-goal-is">Our goal is<a class="anchor-link" href="#Our-goal-is">¶</a></h3><p>Make sure the <strong>difference</strong> between two algorithms on a single comparison <strong>is not coincidental</strong>.</p>
-<center>
-<div>
-<img alt="statistics_scooby-doo" src="../Images/Lecture-4/statistics_scooby-doo.jpg" width="300"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=eb87a7fa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">¶</a></h3><p>We have two algorithms: $A$ and $B$</p>
-<p>We have a dataset $X$</p>
-<p>We have an evaluation measure $\mathcal{M}$ $\rightarrow$ $\mathcal{M}(\cdot, X)$ is its value on dataset $X$ for algorithm $\cdot$</p>
+<p>Data Cards are <strong>structured summaries</strong> of essential facts about various aspects of ML datasets needed by stakeholders across a dataset’s lifecycle for responsible AI development</p>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c11c4bf1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>We define the <strong>difference</strong> in performance between $A$ and $B$ as:</p>
-<p>$$
-\begin{equation} \label{eq:delta}
-    \delta(X) = \mathcal{M}(A, X) - \mathcal{M}(B, X)
-\end{equation}
-$$</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a32fd062">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Then the stastical hypothesis testing problem is:</p>
-<p>$$
-\begin{align}
-    H_0: \delta(X) \le 0 \\
-    H_1: \delta(X) &gt; 0
-\end{align}
-$$</p>
-<p>We want to give very low probability for $H_0$ being true in order <strong>to reject it</strong> and accept our desired hypothesis $H_1$.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8d565bcc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>To do so, we compute the p-value: the probability, under $H_0$, of obtaining a result <strong>equal to or more extreme</strong> than what was actually observed:</p>
-<p>$$
-\begin{equation}
-    P \left ( \delta(Y) \ge \delta_{observed} | H_0 \right ) \quad (\delta_{observed} \, \text{is derived from Eq. \eqref{eq:delta}})
-\end{equation}
-$$</p>
-<p>where $Y$ is a random variable over possible observations</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=80c8ea9b">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The smaller the p-value, the higher the significance $\rightarrow$ $H_0$ does not hold</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c99fdfde">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>To reject $H_0$ one should define a threshold $\alpha$, the <strong>significance level</strong>: reject only if p-value $&lt; \alpha$</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=eb3ad032">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Error-types">Error types<a class="anchor-link" href="#Error-types">¶</a></h4><ul>
-<li>Type I: $H_0$ is rejected when it is actually true</li>
-<li>Type II: $H_0$ is not rejected although it should be</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3b00740f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Parametric-vs-non-parametric-tests">Parametric vs non-parametric tests<a class="anchor-link" href="#Parametric-vs-non-parametric-tests">¶</a></h3><p>Statistical significance depends on two notions: $\mathcal{M}$ and the distribution of $\delta(X)$</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=573b84d0">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=779e571b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>If the distribution of $\delta(X)$ <strong>is known</strong> (we call the distribution parameters $\theta$): <strong>parametric tests</strong> are the way to ensure low probability of Type II error</li>
-<li>Otherwise, we rely on <strong>non-parametric</strong> tests (less powerful but statistically sound)</li>
+<li>provide explanations of processes and rationales that shape the data and corresponding up-stream processes</li>
+<li>trainining and evaluation methods</li>
+<li>intended use of data (<em>recall annotation paradigms!</em>)</li>
+<li>decisions affecting model performance</li>
 </ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b662bbbd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="How-to-know-the-distribution-of-$%5Cdelta(X)$?">How to know the distribution of $\delta(X)$?<a class="anchor-link" href="#How-to-know-the-distribution-of-$%5Cdelta(X)$?">¶</a></h4><ul>
-<li>Shapiro-Wilk test</li>
-<li>Kolmogorov-Smirnov test</li>
-<li>Anderson-Darling test</li>
-<li>$\dots$</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d1986dcb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Parametric-tests">Parametric tests<a class="anchor-link" href="#Parametric-tests">¶</a></h3><p>Typically assume the normal distribution</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6d7f0695">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Paired-Student's-t-test">Paired Student's t-test<a class="anchor-link" href="#Paired-Student's-t-test">¶</a></h4><p>Assesses whether the <strong>population means</strong> of two sets of measurements differ from each other</p>
-<p>Assumes that both samples come from a normal distribution</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2b36614e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h5 id="When-is-it-applied?">When is it applied?<a class="anchor-link" href="#When-is-it-applied?">¶</a></h5><p>On evaluation measures like accuracy, UAS (unlabeled attachment score) and LAS (labeled attachment score) (used in <strong>structured tasks</strong>) $\rightarrow$ compute the mean of correct predictions per example</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e29fa91a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Usually based on the idea of the Central Limit Theorem $\rightarrow$ when the number of individual predictions (e.g., words in a sentence) <strong>is large enough</strong></p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9e33ff7f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Non-parametric-tests">Non-parametric tests<a class="anchor-link" href="#Non-parametric-tests">¶</a></h3><p>There are two families</p>
-<ul>
-<li><strong>Sampling-free</strong>: Does <strong>not</strong> consider the actual values of the evaluation measures</li>
-<li><strong>Sampling-based</strong>: Does consider the values of the measures</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f553532a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Sampling-free">Sampling-free<a class="anchor-link" href="#Sampling-free">¶</a></h4><p>Only considers <strong>the number of cases</strong> in which each of the algorithms performs better than the other</p>
-<p>Lower statistical power than sampling-based but <strong>far less</strong> computationally intensive</p>
-<ul>
-<li>Sign test</li>
-<li>McNemar's test / Cochran's Q test</li>
-<li>Wilcoxon signed-rank test</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f8618b30">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Sign-test">Sign test<a class="anchor-link" href="#Sign-test">¶</a></h4><p><strong>Test statistic</strong>: number of examples for which A is better than B but <strong>ignores the extent of the difference</strong>!</p>
-<p><strong>Null hypothesis</strong>: given a new pair of measurements $(a_i, b_i)$ then $a_i$ and $b_i$ are <strong>equally likely</strong> to be larger than the other</p>
-<p><strong>Assumptions</strong>:</p>
-<ul>
-<li>Data samples are i.i.d.</li>
-<li>The differences come from a continuous distribution (e.g., accuracy metric)</li>
-<li>The values are ordered</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e02d2875">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="McNemar's-test">McNemar's test<a class="anchor-link" href="#McNemar's-test">¶</a></h4><p>A <strong>special case</strong> of sign test for <strong>binary classification</strong></p>
-<p><strong>Null hypothesis</strong>: marginal probability for each outcome is the same for both A and B $\rightarrow$ A and B are expected to make the <strong>same proportions</strong> of correct/incorrect predictions</p>
-<p>The Cochran's Q test generalizes for <strong>multi-class classification</strong> setups</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2d57df39">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Wilcoxon's-signed-rank-test">Wilcoxon's signed-rank test<a class="anchor-link" href="#Wilcoxon's-signed-rank-test">¶</a></h4><p>More powerful than previous methods.</p>
-<p><strong>Null hypothesis</strong>: the differences follow a symmetric distribution around zero</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ce24a725">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Sampling-based">Sampling-based<a class="anchor-link" href="#Sampling-based">¶</a></h4><ul>
-<li>Permutation/randomization test</li>
-<li>Paired bootstrap</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cde5a8dd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Pitman's-permutation-test">Pitman's permutation test<a class="anchor-link" href="#Pitman's-permutation-test">¶</a></h4><p>Computes statistical significance under all possible labellings (<strong>permutations</strong>) of the test set</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7cb61832">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Compute original sum of differences between A and B: $d_0$</li>
-<li>For all permutations $r$<ul>
-<li>Randomly swap $\mathcal{M}(A, x_i)$ with $\mathcal{M}(B, x_i)$ up to $N$ times</li>
-<li>Compute sum of differences between A and B: $d_r$</li>
-</ul>
-</li>
-<li>The p-value is the ratio of times where $d_r \le d_0$</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=07c85119">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Exponentially large</strong> number of possible permutations</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=86d2c2c1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>In pratice, we use <strong>approximations</strong>: a pre-defined limited number of permutations are drawn without replacement</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9b7f0a7e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Paired-bootstrap-test">Paired bootstrap test<a class="anchor-link" href="#Paired-bootstrap-test">¶</a></h4><p>Differs from Pitman's test by <strong>allowing replacements</strong>: an example from the original test data can appear more than once in a sample</p>
-<p>Uses the samples as surrogates populations for the purpose of approximating the sampling distribution of the statistic</p>
-<p>Less effective for <strong>small</strong> test sets.</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7946e861">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Which-one-to-use?">Which one to use?<a class="anchor-link" href="#Which-one-to-use?">¶</a></h3><center>
-<div>
-<img alt="statistical_significance" src="../Images/Lecture-4/statistical_significance.png" width="600"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=388eecd3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Open-problems">Open problems<a class="anchor-link" href="#Open-problems">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=93d47aa1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Dependent-observations">Dependent observations<a class="anchor-link" href="#Dependent-observations">¶</a></h4><p>In many cases, samples are <strong>not</strong> i.i.d. (e.g., sentences from the same document)</p>
-<p>[❗] <strong>Hard to quantify</strong> the nature of the dependence between (test) samples</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=691558ca">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Cross-validation">Cross-validation<a class="anchor-link" href="#Cross-validation">¶</a></h4><p>[❗] Test splits of different folds are <strong>not independent</strong></p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7115bca2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>A possible solution is to use $K_{Bonferroni}$ estimator [<a href="https://aclanthology.org/Q17-1033.pdf">Dror et al., 2017</a>]</p>
-<ol>
-<li>Calculate p-value <strong>for each fold</strong> separately</li>
-<li>Perform replicability analysis for dependent datasets with $K_{Bonferroni}$</li>
-<li>If the analysis rejects the null hypothesis in <strong>all folds</strong> the results should be significant</li>
-</ol>
 </div>
 </div>
 </div>
 </div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=eec8417d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6383483f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Replicability-analysis">Replicability analysis<a class="anchor-link" href="#Replicability-analysis">¶</a></h2><p>In many cases we experimentally compare a model A to another model B on several datasets</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a289f991">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>However, <strong>aggregating individual statistical significance tests</strong> over multiple datasets is error prone $\rightarrow$ the probability of making one or more false claims is <strong>very high</strong>!</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b0df92e9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[<a href="https://aclanthology.org/Q17-1033.pdf">Dror et al., 2017</a>] propose a method for</p>
-<ul>
-<li>Counting: for how many datasets does a given algorithm outperform another?</li>
-<li>Identification: what are these datasets?</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a98e31b5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Counting">Counting<a class="anchor-link" href="#Counting">¶</a></h3><p>Recall the statistical hypothesis testing problem:</p>
-<p>$$
-\begin{align}
-    H_0: \delta(X) \le 0 \\
-    H_1: \delta(X) &gt; 0
-\end{align}
-$$</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1a3dcd60">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>If we have $N$ datasets, we have to test for rejecting $H_0$ <strong>$N$ times</strong>$\rightarrow$ it is likely to make some erroneous rejections!</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=acc815ec">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>For instance, if significance level is $\alpha = 0.05$, we have 5% chance to make an erroneous rejection. If $N = 100$, we can expect to make around 5 wrong rejections.</p>
-<p>The probability of <strong>making at least one</strong> erroneous rejection is $1 - (1 - 0.05)^{100} = 0.994$</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0e5ac9c3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Partial-conjunction-test">Partial conjunction test<a class="anchor-link" href="#Partial-conjunction-test">¶</a></h4><p>We consider different $H_0$ and $H_1$</p>
-<p>$$
-\begin{align}
-    H_0^{u/N}: k &lt; u \\
-    H_1^{u/N}: k \ge u
-\end{align}
-$$</p>
-<p>where $k$ is the true unknown number of false null hypotheses $\rightarrow$ number of datasets where A is <strong>truly better</strong> than B</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f81403f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This problem translates to <em>"Are <strong>at least</strong> $u$ out of $N$ null hypotheses false?''</em></p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d5268ba0">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>There are two estimators for $k$ (i.e., for addressing counting)</p>
-<ul>
-<li>Bonferroni: for <strong>dependent</strong> datasets</li>
-<li>Fischer: for <strong>independent</strong> datasets (requires independence but more powerful than Bonferroni)</li>
-</ul>
-<p>By computing the estimator, we can estimate our $\hat{k}$, meaning that A is better than B in <strong>at least</strong> $\hat{k}$ datasets with a confidence level $1 - \alpha$.</p>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=94e570b4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Is-null-hypothesis-significance-test-the-only-option?">Is null-hypothesis significance test the only option?<a class="anchor-link" href="#Is-null-hypothesis-significance-test-the-only-option?">¶</a></h3><center>
-<div>
-<img alt="comparison" src="../Images/Lecture-4/comparison.png" width="550"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ecb7c8b1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>What is the correct way to interpret empirical observation in terms of the <strong>superiority</strong> of one system over another?</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c5d36f7d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>While $S_1$ has higher accuracy than $S_2$ in both cases, the gap is <strong>moderate</strong> and the datasets are of <strong>limited size</strong></p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e62062d9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[<a href="https://aclanthology.org/2020.acl-main.506.pdf">Azer et al., 2020</a>] make at least <strong>four statistically distinct hypotheses</strong>, each supported by a <strong>different statistical evaluation</strong></p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=89be82c6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="H1-(null-hypothesis)">H1 (null hypothesis)<a class="anchor-link" href="#H1-(null-hypothesis)">¶</a></h4><p><strong>Assuming</strong> $S_1$ and $S_2$ have inherently <strong>identical</strong> accuracy, the probability (p-value) of making a hypothetical observation with an accuracy gap at least as large as the empirical observation (here, 3.5%) is at most 5% (making us 95% confident that the above assumption is false).</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d50e6429">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="H2-(confidence-intervals)">H2 (confidence intervals)<a class="anchor-link" href="#H2-(confidence-intervals)">¶</a></h4><p><strong>Assuming</strong> $S_1$ and $S_2$ have inherently <strong>identical</strong> accuracy, the empirical accuracy gap (here, 3.5%) is
-larger than the maximum possible gap (confidence interval) that could hypothetically be observed with a
-probability of over 5% (making us 95% confident that the above assumption is false).</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b7d4db4f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="H3-(posterior-intervals)">H3 (posterior intervals)<a class="anchor-link" href="#H3-(posterior-intervals)">¶</a></h4><p><strong>Assume a prior belief</strong> (a probability distribution) w.r.t. the inherent accuracy of typical systems. Given the
-empirically observed accuracies, the <strong>probability</strong> (posterior interval) that the inherent accuracy of S1 exceeds that of S2 <strong>by a margin</strong> of 1% is at least 95%.</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=880412e1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="H4-(Bayes-factor)">H4 (Bayes factor)<a class="anchor-link" href="#H4-(Bayes-factor)">¶</a></h4><p><strong>Assume a prior belief</strong> (a probability distribution) w.r.t. the inherent accuracies of typical systems. Given the empirically observed accuracies, <strong>the odds</strong> increase by a factor in favor of the hypothesis that the inherent accuracy of S1 exceeds that of S2 <strong>by a margin</strong> of 1%</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bfe50497">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>H1 and H2 can be tested with <strong>p-value-based</strong> methods $\rightarrow$ operate over the probability space of a test statistics ($\delta$) over observations</p>
-<p>H3 and H4 are based on <strong>Bayesian inference</strong> $\rightarrow$ operate directly over the probability space of inherent accuracy (rather than observations)</p>
+<h3 id="Data-cards-principles">Data cards principles<a class="anchor-link" href="#Data-cards-principles">¶</a></h3><p><strong>Guidelines</strong> for the successful and appropriate adoption of Data Cards in practice and at scale</p>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=763e6d23">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f34bb2ce">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Due to <strong>time reasons</strong>, we don't explore these methods in details. $\rightarrow$ a dedicated course would be needed! (<em>I suck at statistics</em>)</p>
+<h4 id="Consistent">Consistent<a class="anchor-link" href="#Consistent">¶</a></h4><p>Data Cards must be <strong>comparable to one another</strong>, regardless of data modality or domain such that claims are easy to interpret and validate within context of use.</p>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e7d76a56">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7a67d031">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>I <strong>recommend</strong> further reading [<a href="https://aclanthology.org/2020.acl-main.506.pdf">Azer et al., 2020</a>] as it clearly describes all possible misconceptions, misuses and statistical tools when comparing two models on some observed data.</p>
+<p>A Data Card creation effort should solicit <strong>equitable information</strong> from all datasets.</p>
 </div>
 </div>
 </div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=91503875">
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=77b9d1de">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Comprehensive">Comprehensive<a class="anchor-link" href="#Comprehensive">¶</a></h4><p>Rather than being created as a last step in a dataset’s lifecycle, it should be easy to create a Data Card <strong>concurrently</strong> with the dataset.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=11d2dfe4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>This requires <strong>standardized methods</strong> that extend beyond the Data Card, and apply to the various reports generated in the dataset’s lifecycle.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=39f6364c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Intelligible-and-Concise">Intelligible and Concise<a class="anchor-link" href="#Intelligible-and-Concise">¶</a></h4><p>A Data Card should efficiently communicate to the reader with the <strong>least proficiency</strong>, while enabling readers with greater proficiency to find more information as needed.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=44821b75">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>The content and design should <strong>advance a reader’s deliberation</strong> process without overwhelming them, and encourage stakeholder cooperation towards a shared mental model of the dataset for decision-making.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=154fce6c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Explainability,-Uncertainty">Explainability, Uncertainty<a class="anchor-link" href="#Explainability,-Uncertainty">¶</a></h4><p><strong>Clear descriptions</strong> and justifications for uncertainty can lead to additional measures to mitigate risks, leading to opportunities for fairer and equitable models.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4c1a3fa1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>This builds greater trust in the dataset and subsequently, its publishers.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d572343a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9299,234 +7816,14 @@ empirically observed accuracies, the <strong>probability</strong> (posterior int
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <center>
 <div>
-<img alt="azer_survey" src="../Images/Lecture-4/azer_survey.png" width="1700"/>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=55e93d3f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Takeaways">Takeaways<a class="anchor-link" href="#Takeaways">¶</a></h3><ol>
-<li>p-values <strong>do not provide probability</strong> estimates on two systems <strong>being different</strong> (or equal). They can only allow you to conclude that one system <strong>is better than</strong> the other without taking into account <strong>the extent</strong> of the difference between the systems (binary thinking)</li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf3ec5c4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="2">
-<li>A common <strong>misconception</strong> is: <em>"if p-value $&lt; 0.05$, the null hypothesis has only a 5% chance of being true''</em> $\rightarrow$ this is false since we are defining p-value with the <strong>assumption</strong> of null hypothesis being true</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8f562f23">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="3">
-<li>Another <strong>misconception</strong> is: <em>"if p-value $&gt; 0.05$, there is no difference between the two systems''</em> $\rightarrow$ a large p-value only means that the null hypothesis <strong>is consistent with observations</strong>. It does <strong>not</strong> tell you anything about the <strong>likeliness</strong> of the null hypothesis</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=75363935">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="4">
-<li>Another misconception is: <em>"a statistically significant result (p-value $&lt; 0.05$) indicates a <strong>notable difference</strong> between the two systems''</em> $\rightarrow$ p-value only indicates <strong>strict superiority</strong> and provides <strong>no information</strong> about the <strong>margin of the effect</strong></li>
-</ol>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=17a316fd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ol start="5">
-<li><strong>Posterior intervals</strong> generally provide a useful summary as they capture <strong>probabilistic estimates</strong> of the correctness of the hypothesis. For instance, we can say "with probability 0.95, model A's accuracy is two percent higher than that of B $\rightarrow$ A outperforms B</li>
-</ol>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fbf3ea1e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Sticking-to-widely-known-reporting-standards">Sticking to widely known reporting standards<a class="anchor-link" href="#Sticking-to-widely-known-reporting-standards">¶</a></h2><p>[<a href="https://aclanthology.org/2021.acl-long.566.pdf">Marie et al., 2021</a>] analyze <strong>769</strong> papers concerning machine translation and observe that:</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8b1afdfe">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>BLEU metric is used as a reference metric in <strong>99%</strong> of the papers, while there are <strong>more than 100 metrics</strong> that better correlate with human judgements than BLEU $\rightarrow$ different metric choice leads to <strong>different model rankings</strong>!</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbf16099">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Significance testing is <strong>only used in 65%</strong> of the papers</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=96e1e520">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Just considering 2019-2020, <strong>40%</strong> of the papers copied results of previous work $\rightarrow$ it is often unclear whether copied and proper results are <strong>comparable</strong>! (metrics may have <strong>parameters</strong>)<ul>
-<li>For instance, a metric may depend on the tokenizer used and the pre-processing pipeline</li>
-<li>Previous work may hide <strong>coding tricks</strong> [<a href="https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/757b505cfd34c64c85ca5b5690ee5293-Paper-round2.pdf">Liao et al., 2021</a>]</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d5ae7dd8">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>Just considering 2019-2020, <strong>38%</strong> of the papers claimed superiority of a particular method but used different data (e..g, pre-processing pipeline)</li>
-</ul>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f2c87fc4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>More in general, there are several factors that may lead to a method being perceived as superior to another: <em>benchmark lottery</em> [<a href="https://arxiv.org/pdf/2107.07002.pdf">Dehghani et al., 2021</a>]</p>
-</div>
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9d82ca4b">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Aggregating-results-via-averaging">Aggregating results via averaging<a class="anchor-link" href="#Aggregating-results-via-averaging">¶</a></h2><center>
-<div>
-<img alt="BT_example" src="../Images/Lecture-4/BT_example.png" width="600"/>
+<img alt="datacard template" src="../Images/Lecture-5/datacard-template.png" width="1600"/>
 </div>
 </center>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=692b1fa9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>[<a href="https://aclanthology.org/2021.acl-long.179.pdf">Peyrard et al., 2021</a>] argue that <strong>averaging across samples</strong> on the same test set for comparing two models is not a <strong>robust</strong> approach</p>
-</div>
-</div>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf5d8e27">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>They propose the <strong>Bradley-Terry (BT)</strong> model to account for <strong>sample-level pairing</strong>: compares systems for each test instance and estimates the latent strength of systems based on <strong>how frequently</strong> one system scores higher than another</p>
-</div>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2a2a89ad">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Pairing is particular important when there are <strong>different types of examples</strong> in the data (e.g., harder vs. easier)</p>
-</div>
-</div>
-</div>
-</div></div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3819f848">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Compared to BT:</p>
-<ul>
-<li>Mean aggregation is <strong>not robust</strong> to outliers</li>
-<li>Mean and median aggregation <strong>do not take into account order of scores</strong></li>
-<li>BT is the paired variant of median (while median is the <strong>outlier-resistant</strong> version of mean)</li>
-<li>BT relates to Fischer's sign test for statistical significance</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e329fd22">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>BT <strong>decision</strong> simply translates to computing the median of metric scores of model A and B: $BT = Median \left ( \mathcal{M}(A) - \mathcal{M}(B) \right )$</p>
-<p>If $BT &gt; 0$, then A is <strong>better than</strong> B.</p>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=524e4c96">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3afe84c9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9534,14 +7831,195 @@ empirically observed accuracies, the <strong>probability</strong> (posterior int
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <center>
 <div>
-<img alt="BT_discrepancy" src="../Images/Lecture-4/BT_discrepancy.png" width="1000"/>
+<img alt="datacard themes" src="../Images/Lecture-5/datacard-themes.png" width="1600"/>
 </div>
 </center>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e63ae525">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4f35bdeb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="A-concrete-example">A concrete example<a class="anchor-link" href="#A-concrete-example">¶</a></h3><p>Check ''<em>Other material/Lecture-5/datacards.pdf</em>"</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6ad6d36b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Model-Cards-%5BMitchell-et-al.,-2019%5D">Model Cards [<a href="https://dl.acm.org/doi/10.1145/3287560.3287596">Mitchell et al., 2019</a>]<a class="anchor-link" href="#Model-Cards-%5BMitchell-et-al.,-2019%5D">¶</a></h2><p>Similarly to datasheets for datasets, there exist <strong>datasheets for models</strong>.</p>
+<p>Offer a <strong>middle ground</strong> for peer-reviewing processes: code checking is a time-consuming process.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ee6b2291">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Objective</strong>: To clarify the intended use cases of machine learning models and minimize their usage in contexts for which they are not well suited.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4cc08044">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Focus on trained model performance characteristics:</p>
+<ul>
+<li>Type of model</li>
+<li>Intended use cases</li>
+<li>Attributes for which performance may vary</li>
+<li>Measures of model performance (their motivation)</li>
+<li>Ethical considerations</li>
+<li>Target users</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d7eeaaad">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Useful to understand the <strong>systematic impacts</strong> of models before their deployment.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c9c79955">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Model cards are short documents <strong>accompanying trained machine learning models</strong> that provide benchmarked evaluation in a variety of conditions, such as across</p>
+<ul>
+<li>different cultural, demographic, or phenotypic groups (e.g., race, geographic location, sex, etc..)</li>
+<li>intersectional groups (e.g., age and race, or sex and)</li>
+</ul>
+<p>that are relevant to the intended application domains.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a7f64320">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Model cards aim to standardize ethical practice and reporting.</p>
+<p>$\rightarrow$ allowing stakeholders to compare candidate models for deployment across traditional evaluation metrics, ethical, inclusive, and fair considerations.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=69e62b70">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Use-cases">Use cases<a class="anchor-link" href="#Use-cases">¶</a></h3><p>Model reporting will hold different meaning to those involved in different aspects of model development, deployment, and use.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d48fade">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="ML-and-AI-practitioners">ML and AI practitioners<a class="anchor-link" href="#ML-and-AI-practitioners">¶</a></h4><p>They can better understand how well the model might work for the intended use cases and track its performance over time.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cdee87d4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Model-developers">Model developers<a class="anchor-link" href="#Model-developers">¶</a></h4><p>They can compare the model’s results to other models in the same space, and make decisions about training their own system.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cbd7c84f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Software-developers">Software developers<a class="anchor-link" href="#Software-developers">¶</a></h4><p>Software developers working on products that use the model’s predictions can inform their design and implementation decisions.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cb6d1f66">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Policymakers">Policymakers<a class="anchor-link" href="#Policymakers">¶</a></h4><p>They can understand how a machine learning system may fail or succeed in ways that impact people.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a6c16f3b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Organizations">Organizations<a class="anchor-link" href="#Organizations">¶</a></h4><p>They can inform decisions about adopting technology that incorporates machine learning.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dff0bf9d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="ML-knowledgeable-individuals">ML-knowledgeable individuals<a class="anchor-link" href="#ML-knowledgeable-individuals">¶</a></h4><p>They can be informed on different options for fine-tuning, model combination, or additional rules and constraints to help curate models for intended use
+cases without requiring technical expertise.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=37cdb045">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Impacted-individuals">Impacted individuals<a class="anchor-link" href="#Impacted-individuals">¶</a></h4><p>Who may experience effects from a model can better understand how it works or use information in the card to pursue remedies.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d4a836c6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9549,13 +8027,389 @@ empirically observed accuracies, the <strong>probability</strong> (posterior int
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <center>
 <div>
-<img alt="BT_benchmark" src="../Images/Lecture-4/BT_benchmark.png" width="1600"/>
+<img alt="model-card" src="../Images/Lecture-5/model-card.png" width="350"/>
+</div>
+</center>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b2fb8a8e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<center>
+<div>
+<img alt="model-card-example" src="../Images/Lecture-5/model-card-example.png" width="550"/>
 </div>
 </center>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a1ac9ccf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Model-info-sheets-%5BKapoor-and-Narayanan,-2022%5D">Model info sheets <a href="https://www.sciencedirect.com/science/article/pii/S2666389923001599">[Kapoor and Narayanan, 2022]</a><a class="anchor-link" href="#Model-info-sheets-%5BKapoor-and-Narayanan,-2022%5D">¶</a></h2><p>Inspired by Model cards [<a href="https://dl.acm.org/doi/10.1145/3287560.3287596">Mitchell et al., 2019</a>]</p>
+<p>A model info sheet requires the researcher to provide precise arguments to justify that models used for making scientific claims do not suffer from leakage, by answering 21 questions based on their taxonomy of leakage.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=112a1050">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">¶</a></h3><ul>
+<li><strong>Cannot be verified</strong> in the <strong>absence</strong> of computational reproducibility (code availability!)</li>
+<li><strong>Incorrect claims</strong> in the datasheet $\rightarrow$ false assurance (<em>I'm only human after all...</em>)</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8bd3c8e3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Model-info-sheet-template">Model info sheet template<a class="anchor-link" href="#Model-info-sheet-template">¶</a></h3><p>Check ''<em>Other material/Lecture-5/model-info-sheet-template.docx</em>"</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4f39dd28">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="FactSheets-%5BArnold-et-al.,-2019%5D">FactSheets [<a href="https://ieeexplore.ieee.org/document/8843893">Arnold et al., 2019</a>]<a class="anchor-link" href="#FactSheets-%5BArnold-et-al.,-2019%5D">¶</a></h2><p>Considerations beyond accuracy, such as <strong>safety</strong> (which includes fairness and explainability), <strong>security, and provenance</strong>, are also critical elements to engender consumers’ trust in a service.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d50c420c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>FactSheets are documents to contain purpose, performance, safety, security, and provenance information to be completed by AI service providers for examination by consumers.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=17b6cc28">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>A FactSheet is modeled after a supplier’s declaration of conformity (SDoC).</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a02eb6fc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>An SDoC is a document to “show that a product, process or service conforms to a standard or technical regulation, in which a supplier provides written assurance of conformity to the specified requirements”</p>
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=49084dda">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>$\rightarrow$ used in many different industries and sectors including telecommunications and transportation</p>
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=439e0e9c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>$\rightarrow$ SDoCs are often voluntary and tests reported in SDoCs are conducted by the supplier itself rather than by third parties.</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0a9c6716">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>In summary, FactSheets cover several aspects.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d4488507">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Statement-of-Purpose">Statement of Purpose<a class="anchor-link" href="#Statement-of-Purpose">¶</a></h4><ul>
+<li>General: who is the supplier, what is the service about, output of the service, what algorithms, etc.</li>
+<li>Usage: what is the intended use of the service output</li>
+<li>Domains and Applications: was tested on or used for, how is the service being used</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b3f369b7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Basic-Performance">Basic Performance<a class="anchor-link" href="#Basic-Performance">¶</a></h4><ul>
+<li>Testing the service provider: which datasets, which testing methodology, which results</li>
+<li>Testing by third parties: way to verify performance metrics, tested by any third party</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=39edd265">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Safety">Safety<a class="anchor-link" href="#Safety">¶</a></h4><ul>
+<li>General: aware of biases, ethical issues, safety risks, informed consent</li>
+<li>Explainability: are the service output explainable/interpretable?</li>
+<li>Fairness: was each dataset checked for biases, any bias detection implemented</li>
+<li>Concept drift: expected performance on seen and unseen data, is the system updated with new data</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=74a87e67">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Security">Security<a class="anchor-link" href="#Security">¶</a></h4><ul>
+<li>How could the service be attacked</li>
+<li>How is data secured</li>
+<li>Is the service robust to adversarial attacks</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d6645f7d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Lineage">Lineage<a class="anchor-link" href="#Lineage">¶</a></h4><ul>
+<li>Training data: as-is model availability, training data availability</li>
+<li>Trained models: model training details, model last update</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aba6c2bf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="FactSheet-Template">FactSheet Template<a class="anchor-link" href="#FactSheet-Template">¶</a></h3><p>Check <em>''Other material/Lecture-5/factsheets.pdf"</em></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9bc71de6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Many-other-ways-for-reporting">Many other ways for reporting<a class="anchor-link" href="#Many-other-ways-for-reporting">¶</a></h2><ul>
+<li>Checklists [<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0183591">Han et al., 2017</a>] $\rightarrow$ mainly for reviewing and community specific</li>
+<li>Data statements [<a href="https://aclanthology.org/Q18-1041.pdf">Bender &amp; Friedman, 2018</a>] $\rightarrow$ to alleviate issues related to exclusion and bias in NLP</li>
+<li>The Dataset Nutrition Label [<a href="https://arxiv.org/pdf/1805.03677.pdf">Holland et al., 2018</a>] $\rightarrow$ Guidelines for analyzing data structure and status</li>
+<li>Nutritional Labels for Data and Models <a href="https://par.nsf.gov/biblio/10176629">[Stoyanovich and Howe, 2019]</a></li>
+<li>A Taxonomy for curating fair datasets <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html">[Zhao et al., 2024]</a> $\rightarrow$ checklist for creating fairer machine learning datasets</li>
+<li>Method cards <a href="https://ieeexplore.ieee.org/document/9796452">[Adkins et al., 2022]</a> $\rightarrow$ for engineers to fix bugs and improve system's performance</li>
+<li>Explainable FactSheets <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3372870">[Sokol and Flach, 2020]</a> $\rightarrow$ specific for XAI</li>
+<li>Ethics Sheets for AI <a href="https://aclanthology.org/2022.acl-long.573/">[Mohammad, 2022]</a> $\rightarrow$ focus on ethical considerations concerning how tasks are framed</li>
+<li>And many others...</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aea0b0e4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Checklists-can-be-quite-generic">Checklists can be quite generic<a class="anchor-link" href="#Checklists-can-be-quite-generic">¶</a></h2><p>Many of the presented checklists provide a <strong>general and broad overview</strong> of machine learning pipeline aspects</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7c3ce7eb">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>However, in some domains, we might require <strong>ad-hoc</strong> checklists</p>
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=98668f63">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Checklist-for-Speech-Datasets-in-Mental-Health-%5BMancini-et-al.,-2025%5D">Checklist for Speech Datasets in Mental Health <a href="https://dl.acm.org/doi/10.1613/jair.1.16406">[Mancini et al., 2025]</a><a class="anchor-link" href="#Checklist-for-Speech-Datasets-in-Mental-Health-%5BMancini-et-al.,-2025%5D">¶</a></h2><p>Chart the landscape of available <strong>speech datasets</strong> for this domain, to highlight possible pitfalls and opportunities for improvement and promote fairness and diversity.</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=38922db8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Checklist">Checklist<a class="anchor-link" href="#Checklist">¶</a></h3><ul>
+<li>C1: Informed Consent</li>
+<li>C2: Data storage and security</li>
+<li>C3: Data privacy</li>
+<li>C4: Accountability</li>
+<li>C5: Fairness, Bias and Diversity</li>
+<li>C6: Data Quality, Validation, and Maintainability</li>
+<li>C7: Clinical Domain - Discourse Genres</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0a58a769">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<center>
+<div>
+<img alt="jair-speech" src="../Images/Lecture-5/jair-speech.png" width="1500"/>
+</div>
+</center>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a5b90d0e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="What-is-your-opinion?">What is your opinion?<a class="anchor-link" href="#What-is-your-opinion?">¶</a></h2><p>Time for another quick <a href="https://forms.gle/B8XMY46ea62Pgxce8">Google Form</a></p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b211e61c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<center>
+<div>
+<img alt="Recommendation checklists2" src="../Images/Lecture-5/qsn_checklists2.png" width="600"/>
+</div>
+</center>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=22a35faf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Responsible-Research">Responsible Research<a class="anchor-link" href="#Responsible-Research">¶</a></h2><p>These checklists are always <strong>recommendations</strong> and not prescriptive.</p>
+</div>
+</div>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=467a58c0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li>It takes <strong>a lot of time</strong> to compile any (if not more than one) of these checklists</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad9df8ad">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>Nobody</strong> is gonna probably care actually $\rightarrow$ unless they really need to use the resources you provide</li>
+</ul>
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1fcfa80f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>[❗] This is exactly the point of reproducible and open research: it should be part of <strong>your responsibility</strong> as a researcher!</p>
+</div>
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0a257cf3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -9563,46 +8417,46 @@ empirically observed accuracies, the <strong>probability</strong> (posterior int
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Concluding-Remarks">Concluding Remarks<a class="anchor-link" href="#Concluding-Remarks">¶</a></h2><ul>
-<li>Data partitioning is a very delicate step that could lead to over-estimations!</li>
+<li>Issues are always around the corner when doing research $\rightarrow$ we <strong>cannot keep track</strong> of all them!</li>
 </ul>
 </div>
 </div>
 </div>
 </div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f0d19f48">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=99c33c57">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Data leakage can take different forms and is quite common! $\rightarrow$ pay attention to what you do!</li>
+<li>Checklists represent a <strong>way to document research</strong> while trading-off content quality and clarity with workload</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a056aa29">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=30fe92eb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Random seeds should be treated as any other hyper-parameter $\rightarrow$ evaluate on more test splits!</li>
+<li>They are still only recommendations and they can be quite <strong>time-consuming with barely no reward</strong> (feel depressed again?)</li>
 </ul>
 </div>
 </div>
 </div>
 </div></div><div class="fragment">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9572b29e">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6f88a30f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Statistical significance is often abused and erroneously applied $\rightarrow$ we really need to understand it!</li>
+<li>Still, researchers should be <strong>educated to be responsible</strong>. Each output is a building block for the next ones.</li>
 </ul>
 </div>
 </div>
