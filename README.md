@@ -57,7 +57,16 @@ If you need to certify your attendance to the course via an exam, you can submit
 
 Lecture recordings are publicly available at the following links:
 
-- ``2024-2025``: https://zenodo.org/records/15473310
+### ``2024-2025``
+
+- [Lecture 1](https://zenodo.org/records/15622312)
+- [Lecture 2](https://zenodo.org/records/15622333)
+- [Lecture 3](https://zenodo.org/records/15622351)
+- [Lecture 4](https://zenodo.org/records/15622404)
+- [Lecture 5](https://zenodo.org/records/15622408)
+- [Lecture 6](https://zenodo.org/records/15622426)
+- [Lecture 7](https://zenodo.org/records/15622430)
+- [Lecture 8](https://zenodo.org/records/15622441)
 
 ## Lecturer
 
